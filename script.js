@@ -30,7 +30,7 @@ document.getElementById('questionForm').addEventListener('submit', function (eve
     userId: 1
   };
 
-  const apiUrl = 'https://help-system-five.vercel.app/requests';
+  const apiUrl = 'https://help-system-1eq7.vercel.app/requests';
 
   // Configuração da requisição
   const requestOptions = {
