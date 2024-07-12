@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastrar Pedido de Ajuda</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <h2>Cadastrar Pedido de Ajuda</h2>
+    <form id="helpRequestForm">
+      <label for="title">Título:</label>
+      <input type="text" id="title" name="title" required>
+
+      <label for="description">Descrição:</label>
+      <textarea id="description" name="description" required></textarea>
+
+      <button type="button" onclick="requestHelp()">Cadastrar</button>
+      <button type="button" onclick="redirectToListRequests()">Listar Pedidos de Ajuda</button>
+    </form>
+    <p id="requestMessage"></p>
+  </div>
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>

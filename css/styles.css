@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+input[type="text"],
+input[type="password"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+textarea {
+  resize: vertical;
+}
+
+p {
+  color: red;
+}
+
+
+
+
+
+
+
+
+.card-container {
+  display: grid;
+  grid-gap: 20px;
+}
+
+.card {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+.card p {
+  margin-bottom: 10px;
+}
+
+.card button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.card button:hover {
+  background-color: #45a049;
+}
